@@ -2,7 +2,7 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <span>forPlapoApps developer blog</span>,
   project: {
     link: 'https://github.com/forPlapoApps',
   },

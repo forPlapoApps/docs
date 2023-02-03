@@ -2,6 +2,9 @@
   "index": "Introduction",
   "another": "Another Page",
   "advanced": "Advanced (A Folder)",
+  "startDeveloping": "Start Developing",
+  "pastVersions": "Past Versions",
+  "releaseNotes": "Release Notes",
   "about": {
     "title": "About",
     "type": "page"
