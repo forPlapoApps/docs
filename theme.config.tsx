@@ -1,17 +1,20 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
+const title = "forPlapoApps Docs"
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <span>{title}</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: title,
   },
-  chat: {
-    link: 'https://discord.com',
-  },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/forPlapoApps/blog',
   footer: {
-    text: 'Nextra Docs Template',
+    text: title,
+  },
+  useNextSeoProps() {
+    return {
+    titleTemplate: `%s | ${title}`
+    }
   },
 }
 
