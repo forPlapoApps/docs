@@ -5,9 +5,9 @@ const title = "forPlapoApps Docs"
 const config: DocsThemeConfig = {
   logo: <span>{title}</span>,
   project: {
-    link: "https://github.com/forPlapoApps/blog",
+    link: "https://github.com/forPlapoApps/docs",
   },
-  docsRepositoryBase: 'https://github.com/forPlapoApps/blog',
+  docsRepositoryBase: 'https://github.com/forPlapoApps/docs',
   footer: {
     text: title,
   },
